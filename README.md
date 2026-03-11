@@ -1,4 +1,4 @@
-# NoneBot-Plugin-SmartAgent
+# NoneBot-Plugin-Agent
 
 这是一个基于 **NoneBot2** 框架开发的轻量级、可扩展的 AI Agent 助手插件。它不仅能通过大模型进行对话，还具备文件读写、指令执行、技能管理以及长效记忆功能。
 
