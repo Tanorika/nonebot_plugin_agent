@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# NoneBot & Local Environment
+.env
+.env.*
+!.env.example
+
+# Runtime Data (User Conversations, Long Term Memory, Memory Trees, Tasks)
+memory/*.json
+memory/long_term/*.json
+memory/trees/*.json
+tasks/*.json
+temp/images/*
+!temp/images/.gitkeep
+!memory/long_term/.gitkeep
+!memory/trees/.gitkeep
+!tasks/.gitkeep
+
+# Generated & Temp files
+workspace/temp/*
+!workspace/temp/.gitkeep
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

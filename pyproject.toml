@@ -1,0 +1,17 @@
+[project]
+name = "nonebot-plugin-agent"
+version = "0.1.0"
+description = "A powerful autonomous agent plugin with memory trees, task scheduling, and dynamic tools for NoneBot2"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "nonebot2>=2.2.0",
+    "nonebot-adapter-onebot>=2.4.0",
+    "pydantic>=2.0.0",
+    "requests>=2.28.0",
+    "python-dotenv>=1.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
